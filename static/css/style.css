@@ -1,0 +1,118 @@
+/* Reset and General Styles */
+* {
+   padding: 0;
+   margin: 0;
+   font-family: 'PT Sans', sans-serif;
+}
+
+body {
+   background-image: url('../img/kka.jpg');
+   background-size: cover;
+   font-family: sans-serif;
+   margin-top: 40px;
+   height: 100vh;
+   padding: 0;
+   margin: 0;
+}
+
+.header-title {
+   width: auto;
+   margin: auto;
+   color: white;
+   padding: 11px;
+   font-size: 72px;
+   font-family: 'Game Of Squids', sans-serif;
+}
+
+.error-message {
+   color: red;
+   font-size: 20px;
+}
+
+/* Containers */
+.content-container {
+   padding: 20px;
+   margin: 200px;
+}
+
+.attendance-box,
+.add-user-box {
+   border-radius: 20px;
+   padding: 0;
+   background-color: rgba(211, 211, 211, 0.3);
+   margin: 100px;
+   min-height: 400px;
+}
+
+.attendance-box .section-title,
+.add-user-box .section-title {
+   border-radius: 20px 20px 0 0;
+   background-color: #f11d1d;
+   color: white;
+   padding: 10px;
+   font-size: 37px;
+   font-weight:bold;
+}
+
+/* Buttons */
+.action-button {
+   font-size: 24px;
+   font-weight: bold;
+   border-radius: 10px;
+   width: 490px;
+   padding: 10px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   background-color: #f11d1d;
+   border-color: #8d1717;
+}
+
+
+.submit-button {
+   width: 232px;
+   margin-top: 20px;
+   font-size: 20px;
+   
+}
+
+/* Forms */
+.form-label {
+   font-size: 20px;
+   color: rgb(232, 227, 227);
+   font-size: 30px;
+}
+
+.form-input {
+   font-size: 20px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   background-color: #a23838;
+   border-color: #8d1717;
+}
+
+/* Table */
+.attendance-table {
+   background-color: rgb(198, 52, 52);
+   border: 1px solid rgb(206, 199, 199);
+   font-family: arial, sans-serif;
+   border-collapse: collapse;
+   width: 86%;
+   margin: auto;
+   color: aliceblue;
+}
+
+.attendance-table td,
+.attendance-table th {
+   border: 1px solid rgb(186, 177, 177) !important;
+   padding: 5px;
+}
+
+.attendance-table tr:nth-child(even) {
+   background-color: #8d1717;
+}
+
+/* Miscellaneous */
+.database-info {
+   padding: 25px;
+   color: #f11d1d;
+}
